@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WalkThroughSample</string>
+
+    <string name="title_1">Title1</string>
+    <string name="title_2">Title2</string>
+    <string name="title_3">Title3</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParallaxViewPagerBackgroundView">
+        <attr name="parallax_divisor" />
+    </declare-styleable>
+
+    <declare-styleable name="WalkThroughIconsView">
+        <attr name="parallax_multiplier" />
+    </declare-styleable>
+</resources>
