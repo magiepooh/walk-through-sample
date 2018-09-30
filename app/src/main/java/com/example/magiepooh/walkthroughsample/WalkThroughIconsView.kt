@@ -32,21 +32,6 @@ class WalkThroughIconsView @JvmOverloads constructor(
         typedArray.recycle()
     }
 
-    fun startScaleAnim() {
-        arrayOf(binding.icBike).forEachIndexed { index, image ->
-
-            val delay = 100L + (index * 70)
-            AnimatorSet().apply {
-                duration = 300
-                startDelay = delay
-                playTogether(
-                        ObjectAnimator.ofFloat(image, View.SCALE_X, 0f, 1f),
-                        ObjectAnimator.ofFloat(image, View.SCALE_Y, 0f, 1f)
-                )
-            }.start()
-        }
-    }
-
     val onPageScrolled: (Int, Float, Int) -> Unit = { position, positionOffset, _ ->
         translationX = -(displayWidth * (position + positionOffset) * parallaxMultiplier)
     }

@@ -18,7 +18,7 @@ class DeviceView @JvmOverloads constructor(
     companion object {
         private const val PARALLAX_DIVISOR_TITLE = 0.62f
         private const val PARALLAX_DIVISOR_DEVICE = 0.89f
-        private const val DEVICE_MAX_ROTATION = 12f
+        private const val DEVICE_MAX_ROTATION = 18f
         /**
          * @akono 氏のPrincipleより 48(Y) / 522(device height)
          * */
